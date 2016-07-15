@@ -190,11 +190,11 @@ public class LocatorActivity extends DrawerNavigationUI implements LocatorListFr
 
         //Get the file's absolute path from the incoming intent
 //        final String tlogAbsolutePath = returnIntent.getStringExtra(ServiceDataContract.EXTRA_TLOG_ABSOLUTE_PATH);
-
-        if (tlogOpener != null)
-            tlogOpener.cancel(true);
-
-        tlogOpener = new OpenTLogFileAsyncTask(this);
+//
+//        if (tlogOpener != null)
+//            tlogOpener.cancel(true);
+//
+//        tlogOpener = new OpenTLogFileAsyncTask(this);
 //        tlogOpener.execute(tlogAbsolutePath);
     }
 
